@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\DevCartProject\\DevCartWebApp\\DevCartWebApp.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\Saedf\\DevCart\\DevCartWebApp\\DevCartWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\DevCartProject\\DevCartWebApp\\DevCartWebApp.csproj": {
+    "C:\\Users\\admin\\source\\repos\\Saedf\\DevCart\\DevCartWebApp\\DevCartWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\DevCartProject\\DevCartWebApp\\DevCartWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Saedf\\DevCart\\DevCartWebApp\\DevCartWebApp.csproj",
         "projectName": "DevCartWebApp",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\DevCartProject\\DevCartWebApp\\DevCartWebApp.csproj",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\Saedf\\DevCart\\DevCartWebApp\\DevCartWebApp.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\DevCartProject\\DevCartWebApp\\obj\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\Saedf\\DevCart\\DevCartWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
