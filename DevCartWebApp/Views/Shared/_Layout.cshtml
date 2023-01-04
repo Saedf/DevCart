@@ -22,7 +22,7 @@
 <header class="header text-center">
     <div class="force-overflow">
         <h1 class="blog-name pt-lg-4 mb-0">
-            <a href="index.html">ساعد فتحی</a>
+            <a asp-controller="Home" asp-action="Index">ساعد فتحی</a>
         </h1>
 
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -34,7 +34,7 @@
 
             <div id="navigation" class="collapse navbar-collapse flex-column">
                 <div class="profile-section pt-3 pt-lg-0">
-                    <img class="profile-image mb-3 rounded-circle mx-auto" src="~/images/me.png" alt="image">
+                    <img class="profile-image mb-3 rounded-circle mx-auto" src="~/images/me.png" alt="OnionAtchitecture" title="EngineerSoftware">
 
                     <div class="bio mb-3">
                         سلام، ساعد فتحی هستم از موسسه آموزشی ساعد سافت. به وبسایت شخصی من خوش
@@ -71,7 +71,7 @@
                 </div>
                 <ul class="navbar-nav flex-column text-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">
                             <i class="fas fa-user fa-fw ml-2"></i>صفحه اصلی
                             <span
                                 class="sr-only">
@@ -80,7 +80,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">
                             <i
                                 class="fas fa-envelope-open-text fa-fw ml-2">
                             </i>ارتباط با ما
