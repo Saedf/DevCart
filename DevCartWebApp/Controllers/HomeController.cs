@@ -22,10 +22,20 @@ namespace DevCartWebApp.Controllers
         //    return Json(Ok());
         //}
         [HttpPost]
-        public JsonResult Contact(Contact contact)
+        public IActionResult Contact(Contact contact)
         {
-           // Console.WriteLine(contact.ToString());
-            return Json(contact);
+            // Console.WriteLine(contact.ToString());
+            //return Json(contact);
+            var model = new Contact();
+            //return View(model);
+            if (!ModelState.IsValid)
+            {
+               ViewBag.error = "اطلاعات وارد شده صحیح نیست ";
+                return View(model); 
+            }
+
+            ViewBag.success = "پیغام شما با  موفقیت ازسال شد .";
+            return View();
         }
 
 
