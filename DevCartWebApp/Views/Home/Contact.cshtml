@@ -63,13 +63,13 @@
     <div class="container">
         @if (!string.IsNullOrWhiteSpace(ViewBag.success))
         {
-            <div class="bg-success">
+            <div class="aler-success p-5">
                 <p>@ViewBag.success</p>
             </div>
         }
         else if (!string.IsNullOrWhiteSpace(ViewBag.error))
         {
-            <div class="bg-danger">
+            <div class="alert-danger p-5">
                 <p>@ViewBag.error</p>
             </div>
         } 
