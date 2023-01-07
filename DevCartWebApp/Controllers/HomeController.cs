@@ -26,12 +26,12 @@ namespace DevCartWebApp.Controllers
         {
             // Console.WriteLine(contact.ToString());
             //return Json(contact);
-            var model = new Contact();
+            //var model = new Contact();
             //return View(model);
             if (!ModelState.IsValid)
             {
                ViewBag.error = "اطلاعات وارد شده صحیح نیست ";
-                return View(model); 
+                return View(contact); 
             }
 
             ViewBag.success = "پیغام شما با  موفقیت ازسال شد .";
