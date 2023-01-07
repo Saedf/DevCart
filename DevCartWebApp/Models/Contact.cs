@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DevCartWebApp.Models
 {
@@ -13,8 +14,8 @@ namespace DevCartWebApp.Models
         [Required(ErrorMessage = "این فیلد اجباری است ")]
         public string Email { get; set; }
 
-       
-        public string Service { get; set; }
+        public int Service { get; set; }
+        public SelectList Services { get; set; }
         public string Message { get; set; }
 
     }
